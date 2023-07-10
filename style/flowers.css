@@ -31,6 +31,7 @@ body{
     border-radius: 8px;
     background-color: #E55473;
     border: none;
+    color: #FFFFFF;
 }
 .banner-img{
     width: 635px;
@@ -115,3 +116,16 @@ body{
 }
 
 /* featured flowers ended */
+/* Hot Deal Starts */
+.deal-container{
+    padding: 100px 430px;
+}
+.hot-deal-info{
+    padding-right:180px ;
+    text-align: center;
+}
+.extra-deal{
+    color: #E55473;
+}
+
+/* Hot Deal Ended */
