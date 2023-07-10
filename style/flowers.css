@@ -4,8 +4,35 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
 }
-
+/* Navbar */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #da9daa;
+    
+}
+.nav-title{
+    color: crimson;
+    font-size: 40px;
+    font-weight: 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-right: 15px; */
+    list-style: none;
+}
+a{
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
 /* top banner section start */
 .banner-container{
     display: flex;
@@ -19,12 +46,13 @@ body{
 }
 .banner-title{
     font-weight: bold;
-    font-size: 70px;
+    font-size: 60px;
     padding-left: 0px;
     margin-bottom: 0px;
 }
 .banner-description{
     padding: 22px 0px;
+    margin-top: 0px;
 }
 .btn-primary{
     padding: 20px 43px;
@@ -163,4 +191,18 @@ body{
 /* instagram ended */
 
 /* footer start */
+.flower-shop{
+    text-align: center;
+    background-color: #111010;
+    color: rgba(255, 255, 255, 0.90);
+    /* height: 500px; */
+    padding: 200px 200px;
+}
+.footer-title{
+    /* padding-bottom: 10px ; */
+}
+.copy-right{
+    color: rgba(255, 255, 255, 0.40);
+    padding-top: 50px;
+}
 /* footer end */
