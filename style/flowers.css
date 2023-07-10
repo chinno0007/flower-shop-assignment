@@ -1,0 +1,40 @@
+*{
+    margin: 0 auto;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* top banner section start */
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.top-banner-info{
+    padding-left: 240px;
+    margin-right:97px ;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 70px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.banner-description{
+    padding: 22px 0px;
+}
+.btn-primary{
+    padding: 20px 43px;
+    border-radius: 8px;
+    background-color: #E55473;
+    border: none;
+}
+.banner-img{
+    width: 635px;
+    height: 800px;
+    padding:50px 240px 0px 97px;
+}
+/* top banner section ended */
